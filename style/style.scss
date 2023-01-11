@@ -134,7 +134,7 @@
 }
 
     .bg-pink{
-    background-image: url(img/R.png);
+    background-image: url(../img/R.png);
     height: 604px;
     background-repeat: no-repeat;
     display: flex;
@@ -391,8 +391,6 @@
                 display: flex;
                 align-items: center;
                 &-number{
-                    p{
-                    }
                 }
                 .tel-btn{
                     @extend %bntfs;
